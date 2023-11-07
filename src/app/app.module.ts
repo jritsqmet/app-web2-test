@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './screens/home/home.component';
 import { InfoComponent } from './screens/info/info.component';
+import { ElizabethComponent } from './components/elizabeth/elizabeth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    InfoComponent
+    InfoComponent,
+    ElizabethComponent
   ],
   imports: [
     BrowserModule,
